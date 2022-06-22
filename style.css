@@ -1,3 +1,9 @@
+
+html, body {
+margin:0;
+padding:0;
+}
+
 header {
   background-color: #d5f1ff;
   height: 25px;
@@ -11,7 +17,7 @@ main {
 h1,h2 {
  font-family: Impact, serif;
  font-size: 35px;
- color:#8080ff;
+ color:#800000;
  text-align:center;
  font-weight:bold;
  margin: -30px;
@@ -21,13 +27,13 @@ h1,h2 {
 h3 {
 text-align: center;
 font-family: Arial, serif;
-color: #8080ff;
+color: #800000;
 }
 
 div {
 text-align: center;
 font-family: Arial, serif;
-color: #585858;
+color: #000000;
 }
 
 hr {
@@ -35,6 +41,25 @@ hr {
 	background-color: #808080;
 	border: none;
 	margin: 60px 0 100px 0;
+}
+a:link a:visited a:hover a:active{
+  font-family: Arial, serif;
+}
+a:link {
+  color: red;
+  text-decoration: none;
+}
+a:visited {
+  color: purple;
+  text-decoration: none;
+}
+a:hover {
+  color: blue;
+  text-decoration: none;
+}
+a:active {
+  color: green;
+  text-decoration: none;
 }
 
 
