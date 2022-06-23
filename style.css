@@ -3,7 +3,7 @@ html, body {
 margin:0;
 padding:0;
 }
-
+/* background style */
 header {
   background-color: #d5f1ff;
   height: 25px;
@@ -13,7 +13,7 @@ header {
 main {
   background-color: #cce6ff;
 }
-
+/* group title style */
 h1,h2 {
  font-family: Impact, serif;
  font-size: 35px;
@@ -24,6 +24,7 @@ h1,h2 {
  padding: 10px;
  }
 
+/* acticle or div title style */
 h3 {
 text-align: center;
 font-family: Arial, serif;
@@ -36,15 +37,20 @@ font-family: Arial, serif;
 color: #000000;
 }
 
+/* border style */
 hr {
 	height: 2px;
 	background-color: #808080;
 	border: none;
 	margin: 60px 0 100px 0;
 }
+
+/* group for Link style */
 a:link a:visited a:hover a:active{
   font-family: Arial, serif;
 }
+
+/* link style in action */
 a:link {
   color: blue;
   text-decoration: none;
@@ -62,7 +68,7 @@ a:active {
   text-decoration: none;
 }
 
-
+/* Google Map size */
 iframe {
   width: 600px;
   height: 250px;
