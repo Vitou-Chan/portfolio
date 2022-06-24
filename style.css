@@ -72,6 +72,7 @@ a:active {
 iframe {
   width: 600px;
   height: 250px;
+  margin: 0;
 }
 
 footer {
@@ -79,5 +80,9 @@ footer {
   font-family: Arial, serif;
   background-color: #d5f1ff;
   height: 30px;
-  padding: 35px;
+  padding: 0;
+  margin: 0;
+}
+.fmargin {
+  margin: 0%;
 }
