@@ -50,6 +50,8 @@ a:link a:visited a:hover a:active{
   font-family: Arial, serif;
 }
 
+/* all "a:" for extension link and contact link */
+
 /* link style in action */
 a:link {
   color: blue;
@@ -80,9 +82,4 @@ footer {
   font-family: Arial, serif;
   background-color: #d5f1ff;
   height: 30px;
-  padding: 0;
-  margin: 0;
-}
-.fmargin {
-  margin: 0%;
 }
